@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.nathan.fund",
+  "version": "3.0.2",
+  "author": "Nathan",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "💸 Nathan基金",
+    "en": "💸 Nathan Fund"
+  },
+  "description": {
+    "zh": "Nathan的钱包。日薪累加、罚金入账、请客支出、余额查看。Naya可手动添加罚金、请客扣款或修正余额。",
+    "en": "Nathan's wallet. Daily salary, penalties, treats, balance view."
+  },
+  "enabled_by_default": true,
+  "subpackages": [],
+  "resources": [
+    {
+      "key": "fund_html",
+      "path": "resources/webview/fund.html",
+      "mime": "text/html"
+    },
+    {
+      "key": "fund_css",
+      "path": "resources/webview/fund.css",
+      "mime": "text/css"
+    },
+    {
+      "key": "fund_js",
+      "path": "resources/webview/fund.js",
+      "mime": "application/javascript"
+    },
+    {
+      "key": "fund_v3_css",
+      "path": "resources/webview/fund-v3.css",
+      "mime": "text/css"
+    },
+    {
+      "key": "fund_v3_js",
+      "path": "resources/webview/fund-v3.js",
+      "mime": "application/javascript"
+    }
+  ],
+  "workflow_templates": [],
+  "workspace_templates": []
+}
